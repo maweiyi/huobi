@@ -6,12 +6,29 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "babel-runtime": "^6.26.0",
     "body-parser": "~1.18.2",
+    "chalk": "^2.3.0",
+    "colors": "^1.1.2",
+    "commander": "^2.13.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "ejs": "~2.5.7",
     "express": "~4.15.5",
+    "mongodb": "^3.0.1",
+    "mongoose": "^5.0.1",
     "morgan": "~1.9.0",
-    "serve-favicon": "~2.4.5"
+    "mysql": "^2.15.0",
+    "request": "^2.83.0",
+    "sequelize": "^4.32.2",
+    "serve-favicon": "~2.4.5",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1"
   }
 }
